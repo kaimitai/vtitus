@@ -3,7 +3,7 @@ Visual Titus - TTF/Moktar Editor
 
 Under development.\
 \
-WYSIWYG (what you\ see is what you get) Titus the Fox and Moktar level editor
+WYSIWYG (what you see is what you get) Titus the Fox and Moktar level editor
 \
 Features:\
 Copy/paste tile graphics, import/export BMP\
