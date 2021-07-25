@@ -25,7 +25,7 @@ Feature complete, currently undergoing testing.
 ### Starting the editor
 When starting the program, the About-screen will be loaded. On the top of the screen are the main buttons labeled 0-G, which correspond to level files, a Gfx editor and a link back to the About-window.
 
-![Alt text](./resources/main_buttons.png "Main buttons")
+![Alt text](./resources/main_buttons.PNG "Main buttons")
 
 ### Functions
 Ctrl+Shift+M: Change mode between Moktar and TTF. The mode will decide which sprites and palette are loaded when opening a level file. If a level is already loaded, it needs to be closed and reloaded before this change takes effect.
@@ -42,7 +42,7 @@ You can have several levels open at once, and copy and paste tilemap selections,
 ### Tilemap
 When a level is open, the tilemap will show in the main grid on the left side of the screen.
 
-![Alt text](./resources/tilemap.png "Tilemap")
+![Alt text](./resources/tilemap.PNG "Tilemap")
 
 #### Editing tilemap
 
@@ -70,7 +70,7 @@ Save BMP: Save the level as a bitmap with the selected objects present. (gates e
 
 <a id="tiles"></a>
 #### Editing tiles
-![Alt text](./resources/tile_window.png "Tile window")
+![Alt text](./resources/tile_window.PNG "Tile window")
 
 On the right side of the screen one of seven sub-windows will be shown. The first one is "Ti", which is the tile window with a tile grid. The selected tile is indicated by a yellow square, and the properties of the selected tile will be shown below. In addition, a big version of the tile and its tile number will be shown on the right. \
 \
@@ -100,7 +100,7 @@ Im BMP: Import a 256x256 256-color BMP to replace the tile graphics. This will n
 <a id="objects"></a>
 ## Objects
 
-![Alt text](./resources/objects.png "Objects")
+![Alt text](./resources/objects.PNG "Objects")
 
 The second sub-window is the Objects window ("Obj"). The top slider lets you cycle between objects in the level, and the sprite slidebar lets you select sprite number. A big version of the selected tile will be drawn on a flashing background. The background color is yellow-ish if the selected sprite was not used in the original game, otherwise white-ish.
 
@@ -123,7 +123,7 @@ Note: For the sprite selector, hold shift and click the < or > arrows to cycle b
 <a id="elevators"></a>
 ## Elevators
 
-![Alt text](./resources/elevators.png "Elevators")
+![Alt text](./resources/elevators.PNG "Elevators")
 
 The third sub-window is the Elevators window ("Ele"). When open, the elevators of the level can be edited. We also draw a rectangle indicating how far the elevator reaches before returning.
 
@@ -132,7 +132,7 @@ The functions and the buttons are the same as for the objects screen, with the a
 <a id="gates"></a>
 ## Gates
 
-![Alt text](./resources/gates.png "Gates")
+![Alt text](./resources/gates.PNG "Gates")
 
 The fourth sub-window is the Gates window ("Gat"). When open, the gates of the level can be edited. No graphics are associated with gates in the game, but we draw the entry, exit and camera with green, red and yellow rectangles, respectively. The gates therefore come in threes, numbered from 01 and up. On the picture above, the exit and exit camera positions of gate 1 can be seen.
 
@@ -147,7 +147,7 @@ If scrolling is disabled, the game will not scroll when exiting the gate.
 <a id="md"></a>
 ## Level metadata
 
-![Alt text](./resources/metadata.png "Gates")
+![Alt text](./resources/metadata.PNG "Gates")
 
 The fifth sub-window is the Metadata window ("MD"). When open, some meta-properties of the level can be seen - modeled as four sub-objects: \
 Level start position, modeled by Titus/Moktar. \
@@ -162,7 +162,7 @@ There is no copy/paste/insert/delete in this window.
 <a id="bonuses"></a>
 ## Bonuses
 
-![Alt text](./resources/bonuses.png "Gates")
+![Alt text](./resources/bonuses.PNG "Gates")
 
 The sixth sub-window is the Bonuses window ("Bon"). When open, the bonus-objects of the level can be edited. These are health items, padlocks, level code lamps and "edible" tiles that will reveal a tile beneath.
 
@@ -179,7 +179,7 @@ Copy/Paste and Focus work as usual.
 <a id="enemies"></a>
 ## Enemies
 
-![Alt text](./resources/enemies.png "Enemies")
+![Alt text](./resources/enemies.PNG "Enemies")
 
 The seventh sub-window is the Enemies window ("Ene").
 
@@ -203,7 +203,7 @@ One property for enemy #2 consists of a range and a shooting direction. The butt
 
 We support altering the tile graphics in the level editor itself, but we also built a separate screen for altering the rest of the graphic files.
 
-![Alt text](./resources/gfx.png "Gfx")
+![Alt text](./resources/gfx.PNG "Gfx")
 
 On the left side of the screen the possible graphic file names are listed.
 
