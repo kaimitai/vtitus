@@ -211,7 +211,7 @@ For the 16-color images the palette is prepopulated, whereas for the 256-color i
 
 In either case the buttons do as you would expect; import and export BMP, save and load SQZ. The imported BMPs must be 256-color images (they will be recolored to match the palette for 16-color images) AND they need to have the expected dimensions.
 
-FONTS, SPREXP (TTF sprites) and SPRITES (Moktar sprites) contain more than one image, and will be exported to BMPs numbering from 2 for the second image. For FONTS - the exported filenames will be FONT.BMP, FONT2.BMP, FONT3.BMP and so on. For multi-import, the same file names are expected.
+FONTS, SPREXP (TTF sprites) and SPRITES (Moktar sprites) contain more than one image, and will be exported to BMPs numbering from 2 for the second image. For FONTS - the exported filenames will be FONTS.BMP, FONTS2.BMP, FONTS3.BMP and so on. For multi-import, the same file names are expected.
 
 For sprites and fonts, the color rgb=(160, 64, 192) indicates transparency. Otherwise edit the exported images to know which colors the resultant image will support. The rest will be recolored to the nearest palette color using cartesian distance.
 
