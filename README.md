@@ -220,8 +220,7 @@ For sprites and fonts, the color rgb=(160, 64, 192) indicates transparency. Othe
 
 The only options the author knows of are:
 
-Using a modern source port: [Open Titus](http://opentitus.sourceforge.net/) \
+Using a modern source port: [OpenTitus](http://opentitus.sourceforge.net/) \
 Using the original game: [Moktar the Fox](http://ttf.mine.nu)
 
 Also thanks to Jesses for compiling and hosting the [file format technical documentation](http://ttf.mine.nu/techdocs.htm).
-
