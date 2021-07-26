@@ -65,7 +65,8 @@ Grid: Show gridlines. \
 +Row: Insert row with the selected tile value at the cursor. \
 Shift + +Row: Insert row below cursor. \
 Shift + -Row: Delete row at cursor. \
-Save SQZ, Save LVL: Save the level uncomressed or compressed. \
+Shift + Save SQZ \
+Save LVL: Save the level uncomressed or compressed. \
 Save BMP: Save the level as a bitmap with the selected objects present. (gates excluded for now)
 
 <a id="tiles"></a>
@@ -170,7 +171,7 @@ Each bonus is associated with two tiles, one foreground and one background. If y
 
 The inherit-property will also be set automatically on file load if the tile beneath the bonus equals the tilemap at the bonus' position.
 
-If the inherited property is not set, the background tile is shown with a red selector in the tile grid. This can also be set by right-clicking on the grid.
+If the inherited property is not set, the background tile is shown with a white selector in the tile grid. This can also be set by right-clicking on the grid.
 
 The actual properties for health, padlock, level code and level 14 code are set on the tiles themselves. Only tiles 253-255 can be used for health, other "edible" bonus tiles will simply disappear when touched.
 
@@ -214,6 +215,8 @@ In either case the buttons do as you would expect; import and export BMP, save a
 FONTS, SPREXP (TTF sprites) and SPRITES (Moktar sprites) contain more than one image, and will be exported to BMPs numbering from 2 for the second image. For FONTS - the exported filenames will be FONTS.BMP, FONTS2.BMP, FONTS3.BMP and so on. For multi-import, the same file names are expected.
 
 For sprites and fonts, the color rgb=(160, 64, 192) indicates transparency. Otherwise edit the exported images to know which colors the resultant image will support. The rest will be recolored to the nearest palette color using cartesian distance.
+
+![Alt text](./resources/smb2_conversion.png "SMB2 conversion")
 
 <a id="htp"></a>
 ### How to play
