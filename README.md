@@ -1,6 +1,6 @@
 # Visual Titus - TTF/Moktar Editor
 
-Feature complete, currently undergoing testing.
+Current version: Open beta
 
 [Usage instructions](#start)
 
@@ -21,6 +21,10 @@ Feature complete, currently undergoing testing.
 
 [ How to play](#htp)
 
+[Thanks and acknowledgments](#thanks)
+
+[Contact](#contact)
+
 <a id="start"></a>
 ### Starting the editor
 When starting the program, the About-screen will be loaded. On the top of the screen are the main buttons labeled 0-G, which correspond to level files, a Gfx editor and a link back to the About-window.
@@ -37,6 +41,8 @@ Gfx: Opens the graphics editor. See separate section. \
 Visual Titus: The About-window.
 
 You can have several levels open at once, and copy and paste tilemap selections, tile graphics and level objects between them.
+
+To manipulate objects of any given type, the corresponding object-window on the right side needs to be active. You can cycle between object-windows using Tab and Shift+Tab, or clicking the corresponding window's button.
 
 <a id="tilemap"></a>
 ### Tilemap
@@ -192,6 +198,8 @@ For most enemy numbers, one or two rectangles are associated with the enemy. The
 
 Copy/Paste and Focus work as usual, and it might sometimes be a good idea to copy enemies from an original game level, paste it in your level - and then tweak the parameters.
 
+Click on the "Enemy #"-button to see a description of the enemy's behavior. Cycling between original sprites used for the enemy number will also give a clue.
+
 The increments and decrements go by 1, 10 if shift is held, 100 if ctrl is held, and 1000 if ctrl AND shift are held.
 
 Some enemies are associated with a horizontal midpoint, which is given in absolute x-coordinates. (and shows as two adjacent rectangles) When moving the enemy on the grid these properties will not be changed automatically - so in this case use the increment/decrement buttons.
@@ -226,4 +234,14 @@ The only options the author knows of are:
 Using a modern port: [OpenTitus](http://opentitus.sourceforge.net/) \
 Using the original game: [Moktar the Fox](http://ttf.mine.nu)
 
-Also thanks to Jesses for compiling and hosting the [file format technical documentation](http://ttf.mine.nu/techdocs.htm).
+<a id="thanks"></a>
+### Thanks and acknowledgments
+Thanks to Jesses for compiling and hosting the [file format technical documentation](http://ttf.mine.nu/techdocs.htm) \
+Shout-out to the [DOS Game Modding Wiki](https://moddingwiki.shikadi.net/wiki/Main_Page)
+
+<a id="contact"></a>
+### Contact
+The author, Kai E. Frøland, can be contacted via:
+
+e-mail: kaimitai@pm.me \
+Threema: [79K5EKHC](https://threema.id/79K5EKHC)
