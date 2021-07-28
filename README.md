@@ -229,13 +229,14 @@ For sprites and fonts, the color rgb=(160, 64, 192) indicates transparency. Othe
 <a id="htp"></a>
 ### How to play
 
-The only options the author knows of are:
+The options the author knows of are:
 
-Using a modern port: [OpenTitus](http://opentitus.sourceforge.net/) \
-Using the original game: [Moktar the Fox](http://ttf.mine.nu)
+Using a modern port: [OpenTitus](http://opentitus.sourceforge.net/) - An excellent SDL port \
+Using the original game: [Moktar the Fox](http://ttf.mine.nu) - A classic tool for (among other things) letting you play modified levels with the original game engine.
 
 <a id="thanks"></a>
 ### Thanks and acknowledgments
+Thanks to Eirik Stople for creating OpenTitus \
 Thanks to Jesses for compiling and hosting the [file format technical documentation](http://ttf.mine.nu/techdocs.htm) \
 Shout-out to the [DOS Game Modding Wiki](https://moddingwiki.shikadi.net/wiki/Main_Page)
 
