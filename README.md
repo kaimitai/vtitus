@@ -233,7 +233,7 @@ For sprites and fonts, the color rgb=(160, 64, 192) indicates transparency. Othe
 
 The options the author knows of are:
 
-Using a modern port: [OpenTitus](http://opentitus.sourceforge.net/) - An excellent SDL port \
+Using a modern port: [OpenTitus](http://opentitus.sourceforge.net/) - An excellent SDL port. The original game will not allow you to load modified level SQZ files out of the box, but this port will. \
 Using the original game: [Moktar the Fox](http://ttf.mine.nu) - A classic tool for (among other things) letting you play modified levels with the original game engine.
 
 <a id="thanks"></a>
@@ -260,5 +260,5 @@ Solution: The application has a fixed size of 1200x740 in this version. If your 
 Problem: The program cannot be started \
 Solution: If Windows gives you a message that the program cannot be started, make sure you have the x86 Visual C++ Redistributables. This should be part of most Windows installations by default, but can also be found at [Microsoft Support Visual C++ downloads](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0).
 
-Problem: Some of the imported tilemap BMPs get a black color where I have a red/pink color. \
-Solution: The color at these pixels are closer to the transparent color indicator than any color actually used in the game - and this will show as black in the tilemap. Try changing it to a different red/pink color and load the BMP again. In future versions we plan on only using a color as transparent if it completely matches the transparent color (160, 64, 192).
+Problem: Some of the imported BMPs get a black or transparent color where I have a red/pink color. \
+Solution: The color at these pixels are closer to the transparent color indicator than any color actually used in the game - and this will show as black in the tilemap. Try changing it to a different red/pink color, preferably one actually included in the palette used, and load the BMP again. In future versions we plan on only using a color as transparent if it completely matches the transparent color (160, 64, 192).
