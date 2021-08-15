@@ -25,6 +25,8 @@ Current version: Open beta
 
 [Contact](#contact)
 
+[Troubleshooting](#troubleshooting)
+
 <a id="start"></a>
 ### Starting the editor
 When starting the program, the About-screen will be loaded. On the top of the screen are the main buttons labeled 0-G, which correspond to level files, a Gfx editor and a link back to the About-window.
@@ -246,3 +248,17 @@ The author, Kai E. Frøland, can be contacted via:
 
 e-mail: kaimitai@pm.me \
 Threema: [79K5EKHC](https://threema.id/79K5EKHC)
+
+<a id="troubleshooting"></a>
+### Troubleshooting
+
+Problem: The window cannot be moved or resized \
+Solution: The application has a fixed size of 1200x740 in this version. If your screen resolution is bigger than this, and you still have this problem, set the display scale to 100%.
+
+![Alt text](./resources/display_settings.PNG "Display settings")
+
+Problem: The program cannot be started \
+Solution: If Windows gives you a message that the program cannot be started, make sure you have the x86 Visual C++ Redistributables. This should be part of most Windows installations by default, but can also be found at [Microsoft Support Visual C++ downloads](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0).
+
+Problem: Some of the imported tilemap BMPs get a black color where I have a red/pink color. \
+Solution: The color at these pixels are closer to the transparent color indicator than any color actually used in the game - and this will show as black in the tilemap. Try changing it to a different red/pink color and load the BMP again. In future versions we plan on only using a color as transparent if it completely matches the transparent color (160, 64, 192).
